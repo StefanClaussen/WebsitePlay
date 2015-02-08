@@ -1,0 +1,66 @@
+body {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	font-family: Arial;
+	color: #282222;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: medium;
+	color: #282222
+}
+
+#content {
+	overflow: auto;
+	/*height: 100%;*/
+
+}
+
+#nav, #newsletter, #footer {
+	background-color: #efefef;
+	padding: 10px;
+}
+
+#nav, #newsletter {
+	margin: 50px 10px 50px 10px;
+}
+
+#footer {
+	margin: 100px 10px 100px 10px;
+	font-size: 80%;
+}
+
+.column1 {
+	background-color: #efefef;
+	width: 380px;
+	float: left;
+	/*Used to change the grid gutter*/
+	margin: 50px 10px 50px 10px;
+	height: 560;
+	vertical-align: middle;
+}
+
+.column2 {
+	background-color: #efefef;
+	width: 380px;
+	float: left;
+	/*Used to change the grid gutter*/
+	margin: 50px 10px 50px 10px;
+	height: 560;
+}
+
+li {
+	display: inline;
+	padding: 5px;
+}
+
+img.large {
+	width: 276;
+	height: 560;
+}
