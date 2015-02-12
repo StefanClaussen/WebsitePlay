@@ -42,7 +42,7 @@ p.text {
 }
 
 nav {
-	background-color: #efefef;
+	/*background-color: #efefef;*/
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin: 50px 10px 50px 10px;
@@ -51,6 +51,10 @@ nav {
 nav li {
 	display: inline;
 	padding: 5px;
+}
+
+nav li.logoImage {
+	vertical-align: middle;
 }
 
 nav li.logoText {
