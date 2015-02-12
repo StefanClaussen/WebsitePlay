@@ -117,28 +117,20 @@ img.large {
 }
 
 .download {
-	border-radius: 5px;
+	border-radius: 6px;
 	background-color: #909094;
-	height: 41;
-	width: 122;
+	height: 82;
+	width: 244;
 	margin: auto;
 	padding: 12px 12px 12px 12px;*/
 	text-align: center;
 }
 
-a.button {
+.download a {
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 150%;
 	font-weight: medium;
-}
-
-a#download {
-	/*width: 122px;*/
-	/*background-color: 909094;*/
-	border: 2px solid #909094;
-	padding: 12px 12px 12px 12px;
-	text-align: center;
 }
 
 input {
