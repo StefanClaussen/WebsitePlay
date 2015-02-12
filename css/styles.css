@@ -17,7 +17,7 @@ h3 {
 }
 
 h3.headline1 {
-	padding-top: 20px;
+	padding-top: 70px;
 	padding-bottom: 15px;
 }
 
@@ -79,7 +79,7 @@ nav li a:hover, nav li a.current {
 }
 
 #newsletter, #footer {
-	background-color: #efefef;
+	/*background-color: #efefef;*/
 	padding: 10px;
 }
 
@@ -93,7 +93,7 @@ nav li a:hover, nav li a.current {
 }
 
 .column1 {
-	background-color: #efefef;
+	/*background-color: #efefef;*/
 	width: 380px;
 	float: left;
 	/*Used to change the grid gutter*/
@@ -103,7 +103,7 @@ nav li a:hover, nav li a.current {
 }
 
 .column2 {
-	background-color: #efefef;
+	/*background-color: #efefef;*/
 	width: 380px;
 	float: left;
 	/*Used to change the grid gutter*/
@@ -119,10 +119,10 @@ img.large {
 .download {
 	border-radius: 6px;
 	background-color: #909094;
-	height: 82;
-	width: 244;
+	height: 60;
+	width: 220;
 	margin: auto;
-	padding: 12px 12px 12px 12px;*/
+	padding: 10px;
 	text-align: center;
 }
 
@@ -133,10 +133,16 @@ img.large {
 	font-weight: medium;
 }
 
+.buttonComment {
+	font-size: 80%;
+	color: #9B9B9B;
+}
+
 input {
 	padding: 12px 24px 12px 24px;
 	border: 1px solid #909094;
 	color: #ffffff;
+	font-size: 100%;
 }
 
 input.submit:hover {
